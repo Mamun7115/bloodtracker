@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "readings",
-    "slug": "readings",
-    "version": "1.0.0",
+    "name": "Blood Sugar Tracker By Mamun",
+    "slug": "bloodsugartracker",
+    "version": "1.6.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.d3m0n7115.bloodsugartracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69cb78cc-cf21-4651-be09-5911f34db1fe"
+      }
     }
   }
 }
